@@ -28,24 +28,4 @@ public abstract class AbstractMultiTenancyRepository<T extends AbstractTenantESA
         return eventStore;
     }
 
-    @Override
-    public T ofIdentity(TenantId tenantId, ID id) {
-        return super.ofIdentity(tenantId, id);
-    }
-
-    @Override
-    public void add(T obj, Identity commitId) {
-        super.add(obj, commitId);
-    }
-
-    @Override
-    public void save(T obj, Identity commitId) {
-        super.save(obj, commitId);
-    }
-
-    @Override
-    public boolean exists(TenantId tenantId, ID id) {
-        return super.exists(tenantId, id);
-    }
-
 }
