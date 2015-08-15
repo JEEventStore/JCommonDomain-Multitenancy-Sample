@@ -1,4 +1,4 @@
-package org.jeecqrs.example.multitenancy.rest;
+package org.jeecqrs.example.multitenancy;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
