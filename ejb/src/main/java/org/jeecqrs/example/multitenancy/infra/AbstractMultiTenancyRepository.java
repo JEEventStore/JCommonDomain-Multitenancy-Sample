@@ -5,8 +5,6 @@ import org.jeecqrs.common.Identity;
 import org.jeecqrs.common.domain.model.multitenancy.AbstractTenantESAR;
 import org.jeecqrs.common.persistence.jeeventstore.AbstractMultiTenancyEventStoreRepository;
 import org.jeecqrs.example.multitenancy.domain.common.TenantId;
-import org.jeecqrs.example.multitenancy.domain.product.Product;
-import org.jeecqrs.example.multitenancy.domain.product.ProductId;
 import org.jeeventstore.EventStore;
 
 /**
